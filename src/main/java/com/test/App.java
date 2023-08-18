@@ -16,9 +16,9 @@ public class App {
 		Transaction tr = session.beginTransaction();
 		Login login = new Login();
 		login.setId(126);
-		login.setName("Anzar");
+		login.setName("Abuzar");
 		login.setPassword("877");
-		login.setCity("UP");
+		login.setCity("SakiNaka");
 		session.save(login);
 		tr.commit();
 	}
